@@ -1,4 +1,4 @@
-# My personal site
+# Portfolio site
 _Project P1 at Udacity_
 
 #### Credits
