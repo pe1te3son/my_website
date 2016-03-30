@@ -1,6 +1,7 @@
 /*********************
 ******* Global
 **********************/
+
 body {
   font-family: 'Nunito', sans-serif;
   color:#595959;
@@ -14,14 +15,16 @@ hr {
 /*********************
 ******* Header
 **********************/
+
 .header {
   margin-top: 10px;
 }
+
 .heading-cont {
   text-align: right;
 }
 
-.site-title{
+.site-title {
 font-family: 'Advent Pro', sans-serif;
 letter-spacing: 0.1em;
 font-size: 3em;
@@ -32,6 +35,7 @@ font-size: 3em;
   .heading-cont, .logo{
     text-align: center;
   }
+
   .logo {
     display: block;
     margin: 0 auto;
@@ -42,19 +46,23 @@ font-size: 3em;
 /*********************
 ******* Slider
 **********************/
+
 #slider {
   padding: 0;
 }
+
 #slider .slides {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 #slider .slide {
   display: none;
   max-height: 50vh;
   overflow: hidden;
 }
+
 #slider .slide-active {
   display: block;
 }
@@ -62,9 +70,11 @@ font-size: 3em;
 /*********************
 ******* Main
 **********************/
+
 .work-belt {
   margin-top: 40px;
 }
+
 .work-unit {
   padding: 5px;
   margin-bottom: 40px;
@@ -84,6 +94,7 @@ font-size: 3em;
   margin: 10px auto;
   position: relative;
 }
+
 .description-cont>p {
   padding: 5px;
 }
@@ -92,6 +103,7 @@ font-size: 3em;
   height: 100px;
   overflow: hidden;
 }
+
 .unit-name {
   text-align: center;
   position: absolute;
@@ -104,6 +116,7 @@ font-size: 3em;
 }
 
 /*fade effect at the bottom of work unit*/
+
 .fadeout {
     position: absolute;
     bottom: 0em;
@@ -132,10 +145,11 @@ font-size: 3em;
 }
 
 @media screen and (max-width: 767px) {
-  .work-unit{
+  .work-unit {
     max-width: 90%;
     margin: 10px auto 40px;
   }
+
   .work-banner {
     max-height: 35vh;
     overflow: hidden;
@@ -146,7 +160,8 @@ font-size: 3em;
 /*********************
 ******* Footer
 **********************/
-.site-footer{
+
+.site-footer {
   text-align: center;
   font-size: 1.5em;
   padding-bottom: 5em;
@@ -160,9 +175,11 @@ font-size: 3em;
   width: 30px;
   height: 30px;
 }
+
 .site-footer svg path {
   fill: #2F6F9F;
 }
+
 .site-footer svg:hover path {
   fill: tomato;
 }
